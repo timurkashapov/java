@@ -7,14 +7,44 @@
     <groupId>com.shako</groupId>
     <artifactId>java</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <!-- mmm.nnn.bbb-ssssss-dd -->
+    <!--<version>0.0.0.1</version>-->
+    <version>0.0.0.1</version>
+    <name>java</name>
+    <description>Java Learning Platform</description>
+
+    <developers>
+        <developer>
+            <name>Timur Kashapov</name>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <email>timshako@gmail.com</email>
+        </developer>
+    </developers>
+
     <modules>
         <module>exam</module>
         <module>javase</module>
         <module>javaee</module>
     </modules>
 
+    <distributionManagement>
+
+    </distributionManagement>
+
+    <ciManagement>
+        <!-- ? -->
+    </ciManagement>
+
+    <repositories>
+        <!-- ? -->
+    </repositories>
+
     <properties>
+
+        <project.version>0.0.0.1</project.version>
+
         <java.source.version>1.8</java.source.version>
         <java.target.version>1.8</java.target.version>
         <encoding-source>UTF-8</encoding-source>
@@ -45,5 +75,9 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <!-- ? -->
+    </profiles>
 
 </project>
