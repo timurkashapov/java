@@ -20,6 +20,7 @@
         <module>steam</module>
         <module>net</module>
         <module>lambda</module>
+        <module>date</module>
     </modules>
 
 </project>
