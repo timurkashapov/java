@@ -17,7 +17,7 @@
         <module>reflection</module>
         <module>core</module>
         <module>function</module>
-        <module>steam</module>
+        <module>stream</module>
         <module>net</module>
         <module>lambda</module>
         <module>date</module>
